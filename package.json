@@ -9,7 +9,6 @@
   "author": "Otávio Veríssimo Santos",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.1",
-    "materialize-css": "^1.0.0-rc.2"
+    "live-server": "^1.2.1"
   }
 }
