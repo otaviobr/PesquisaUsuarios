@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Pesquisa de Usuários</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="h1">
+            <h1>Pesquisa de Usuários</h1>
+        </div>
+        <div class="input">
+            <input id="pesquisa" class="pesquisa" type="text" class="validate" disabled>
+            <button id="btn" class="btn" name="action" disabled>Buscar</button>
+        </div>
+        <div class="resultados">
+            <div class="retornoApi">
+                <h1>Usuários Encontrados: <span id="usuariosEncontrados">0</span></h1>
+                <div id="linhasResultado">
+                    
+                </div>
+            </div>
+            <div class="estatistica">
+                <h1>Estatísticas</h1>
+                <p>Sexo Masculino: <span id="sexoMasculino">0</span></p>
+                <p>Sexo Feminino: <span id="sexoFeminino">0</span></p>
+                <p>Soma das Idades: <span id="somaIdades">0</span></p>
+                <p>Média das Idades: <span id="mediaIdades">0</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

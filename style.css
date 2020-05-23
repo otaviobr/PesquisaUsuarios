@@ -1,0 +1,66 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 90px 1fr;
+    grid-template-areas: "h1" "input" "resultados";
+}
+
+.h1{
+    grid-area: h1;
+    margin: 0 auto;
+}
+
+.input{
+    display: flex;
+    justify-content: space-around;
+    grid-area: input;
+    margin: 30px 0px;
+}
+.pesquisa{
+    flex-grow: 20;
+    margin-right: 10px;
+}
+.btn{
+    flex-grow: 1;
+}
+
+.resultados{
+    display: grid;
+    grid-template-areas: "retornoApi estatistica";
+    grid-area: resultados;
+}
+
+.linhaResultado{
+    display: flex;
+    align-items: center;
+    margin: 15px 15px;
+}
+
+.linhaResultado img{
+    border-radius: 50%;
+}
+
+.retornoApi{
+    border: 1px solid black;
+    grid-area: retornoApi;
+    width: 48vw;
+}
+
+.retornoApi > h1{
+    text-align: center;
+}
+
+.estatistica{
+    border: 1px solid black;
+    grid-area: estatistica;
+    height: 250px;
+    width: 48vw;
+}
+
+.estatistica > h1{
+    text-align: center;
+}
+
+.estatistica > p{
+    padding: 0px 15px;
+}
